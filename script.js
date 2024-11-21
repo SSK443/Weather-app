@@ -3,11 +3,11 @@ const getWeather = async () => {
   const result = document.getElementById('result');
 
   if (display.value.trim() === "") {
-    alert("Please fill the form");
+    alert("Please fill in the form");
   } else {
     try {
       const city = display.value;
-      const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=e151c0dce48c44ab85175325242710&q=${city}`);
+      const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=e151c0dce48c44ab85175325242710&q=${city}`);
       const weather = await response.json();
 
       console.log(weather);

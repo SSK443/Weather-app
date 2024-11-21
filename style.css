@@ -6,9 +6,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./WhatsApp\ Image\ 2024-11-09\ at\ 14.25.20_b63b5fe7.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("WhatsApp Image 2024-11-09 at 14.25.20_b63b5fe7.jpg");
   background-size: cover;
- 
 }
 
 .container {
